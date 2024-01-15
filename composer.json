@@ -14,12 +14,6 @@
   ],
   "homepage": "https://github.com/DantSu/php-osm-static-api",
   "license": "MIT",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git@github.com:prianto/php-image-editor.git"
-    }
-  ],
   "authors": [
     {
       "name": "Franck ALARY",
@@ -28,8 +22,7 @@
     }
   ],
   "require": {
-    "php": ">=7.0",
-    "dantsu/php-image-editor": "dev-main"
+    "php": ">=7.0"
   },
   "autoload": {
     "psr-4": {
