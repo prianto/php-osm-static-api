@@ -29,7 +29,7 @@
   ],
   "require": {
     "php": ">=7.0",
-    "prianto/php-image-editor": "dev-main"
+    "dantsu/php-image-editor": "dev-main"
   },
   "autoload": {
     "psr-4": {
