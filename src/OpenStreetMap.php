@@ -266,7 +266,7 @@ class OpenStreetMap
      * @see https://github.com/DantSu/php-image-editor See more about DantSu\PHPImageEditor\Image
      * @return Image An instance of DantSu\PHPImageEditor\Image
      */
-    public function getImage(): Image
+    public function getImage(bool $attr = false): Image
     {
         $image = $this->getMapImage();
 
@@ -278,6 +278,10 @@ class OpenStreetMap
             $markers->draw($image, $this->mapData);
         }
 
-        return $this->drawAttribution($image);
+        if ($attr) {
+            return $this->drawAttribution($image);
+        } else {
+            return $image;
+        }
     }
 }
