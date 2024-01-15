@@ -21,8 +21,15 @@
       "role": "Developer"
     }
   ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "git@github.com:prianto/php-image-editor.git"
+    }
+  ],
   "require": {
-    "php": ">=7.0"
+    "php": ">=7.0",
+    "dantsu/php-image-editor": "dev-main"
   },
   "autoload": {
     "psr-4": {
